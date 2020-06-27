@@ -1,0 +1,109 @@
+@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+	
+body{
+	background-color: skyblue;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+	height: 100vh;
+}
+
+.wave1{
+	height: 280px;
+	width: 650px;
+	position: absolute;
+	top: 50%;
+	left:-10px;
+	border-radius: 80%;
+	transform: translateY(-45%);
+	box-shadow:inset 0 -10px 10px 2px #377994;
+	z-index: -1;
+}
+
+.container{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #101010;
+	box-shadow: 0 0 10px #000;
+	width: 400px;
+	border-radius: 5px;
+}
+
+#signin{
+	margin-top:20px;
+	height: 60px;
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: 3px;
+	line-height: 80px;
+}
+
+
+#signin img{
+	height: 40px;
+	width: 100px;
+	float: left;
+    margin: 10px 0 10px 20%;
+}
+
+p{
+	color: #fff;
+}
+
+.main{
+	margin: 20px;
+	padding: 10px;
+}
+
+.main input{
+	border:none;
+	background-color: transparent;
+	border-bottom: 1px solid  mediumseagreen ;
+	width: 300px;
+	margin: 0 25px 12px 16px;
+	height: 30px;
+	padding: 3px 4px;
+	color: #fff;
+}
+
+.main1 input{
+	margin-top: 10px;
+	border-color: 1px solid #fff;
+	width: 80%;
+	padding: 10px 0;
+	margin :10px 40px; 
+	border-radius:4px;
+	border-width: 0.5px ;
+	font-size:15px;
+	border: none;
+	background-color: mediumseagreen;
+	color: #000;
+	transition: 0.3s ease;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.main1 input:hover{
+	border: 1px solid #000;
+	box-shadow: 0 0 6px mediumseagreen;
+}
+
+.wave2{
+	height: 280px;
+	width: 650px;
+	position: absolute;
+	top: 50%;
+	right:-10px;
+	border-radius: 80%;
+	transform: translateY(-45%);
+	box-shadow:inset 0 10px 10px 2px #377994;
+	z-index: -1;
+}
